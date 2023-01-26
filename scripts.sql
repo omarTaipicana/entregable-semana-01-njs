@@ -35,7 +35,7 @@ name
 insert into courses(
 id,
 user_id,
-categories_id,
+category_id,
 title,
 description,
 level,
@@ -68,7 +68,7 @@ teacher
 
 insert into course_video (
 id,
-courses_id,
+course_id,
 title,
 url,
 format
